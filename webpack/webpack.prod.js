@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ResourceManifestPlugin = require('webpack-fivem-manifest');
+const ResourceManifestPlugin = require('webpack-fx-manifest');
 
 module.exports = require('./webpack.common')({
   mode: 'production',
